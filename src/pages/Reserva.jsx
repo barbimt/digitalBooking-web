@@ -44,7 +44,9 @@ function Reserva() {
   const getReservas = (id) => {
     var config = {
       method: "get",
-      url: `https://vast-tor-50736.herokuapp.com/reservas/productos/${id}`,
+      url: 
+      "https://vast-tor-50736.herokuapp.com/reservas/productos/" + id,
+      // `https://vast-tor-50736.herokuapp.com/reservas/productos/${id}`,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       },

@@ -90,7 +90,8 @@ function Body() {
 
   const filterProductsByDates = async (startDate, endDate) => {
     const response = await fetch(
-      `https://vast-tor-50736.herokuapp.com/productos/${startDate}/${endDate}`
+      "https://vast-tor-50736.herokuapp.com/productos/" + startDate + "/" + endDate
+  
     );
     const data = await response.json();
     if (data.length == 0) {
@@ -115,7 +116,8 @@ function Body() {
  
     setCitySelected(city.id);
     const response = await fetch(
-      `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}/${reservationDates.startDate}/${reservationDates.endDate}`
+      "https://vast-tor-50736.herokuapp.com/productos/ciudad/" + city.id + "/" + reservationDates.startDate + "/" + reservationDates.endDate
+      // `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}/${reservationDates.startDate}/${reservationDates.endDate}`
     );
     const data = await response.json();
     if (data.length == 0) {
@@ -140,7 +142,8 @@ function Body() {
   const filterProductsByCity = async (city) => {
     setCitySelected(city.id);
     const response = await fetch(
-      `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}`
+      "https://vast-tor-50736.herokuapp.com/productos/ciudad/" + city.id
+      // `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}`
     );
     const data = await response.json();
     if (data.length == 0) {

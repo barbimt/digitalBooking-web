@@ -29,7 +29,7 @@ const Login = ({ login }) => {
     const userEmail = JSON.parse(localStorage.getItem("userEmail"));
     var config = {
       method: "get",
-      url: `https://vast-tor-50736.herokuapp.com/usuarios/user/${userEmail}`,
+      url: "https://vast-tor-50736.herokuapp.com/usuarios/user/" + userEmail,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       },
