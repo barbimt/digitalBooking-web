@@ -33,7 +33,7 @@ function ReservaUser() {
 
     var config = {
       method: "get",
-      url: `http://localhost:8080/reservas/usuarios/${idUser.id}`,
+      url: `https://vast-tor-50736.herokuapp.com/reservas/usuarios/${idUser.id}`,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",

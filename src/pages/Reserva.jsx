@@ -44,7 +44,7 @@ function Reserva() {
   const getReservas = (id) => {
     var config = {
       method: "get",
-      url: `http://localhost:8080/reservas/productos/${id}`,
+      url: `https://vast-tor-50736.herokuapp.com/reservas/productos/${id}`,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       },
@@ -55,7 +55,7 @@ function Reserva() {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:8080/productos/" + id).then((response) => {
+    axios.get("https://vast-tor-50736.herokuapp.com/productos/" + id).then((response) => {
       setProduct(response.data);
       getReservas(response.data.id);
     });
@@ -78,7 +78,7 @@ function Reserva() {
     });
     var config = {
       method: "post",
-      url: "http://localhost:8080/reservas",
+      url: "https://vast-tor-50736.herokuapp.com/reservas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -101,7 +101,7 @@ function Reserva() {
     data.ciudad = formValues.city
     var config = {
       method: "put",
-      url: "http://localhost:8080/usuarios",
+      url: "https://vast-tor-50736.herokuapp.com/usuarios",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",

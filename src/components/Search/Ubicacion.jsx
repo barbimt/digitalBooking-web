@@ -18,7 +18,7 @@ function Ubicacion({ handleChangeCitySelected, citySelected}) {
   };
   
   const fetchCities = async () => {
-    const response = await fetch("http://localhost:8080/ciudades");
+    const response = await fetch("https://vast-tor-50736.herokuapp.com/ciudades");
     const data = await response.json();
     const newArrayWithValues = data.map((item) => {
       return {

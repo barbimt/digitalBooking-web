@@ -137,7 +137,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "http://localhost:8080/ubicaciones",
+      url: "https://vast-tor-50736.herokuapp.com/ubicaciones",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -190,7 +190,7 @@ function BodyAdmin() {
     console.log("product para post", data);
     var config = {
       method: "post",
-      url: "http://localhost:8080/productos",
+      url: "https://vast-tor-50736.herokuapp.com/productos",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -223,7 +223,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "http://localhost:8080/imagenes",
+        url: "https://vast-tor-50736.herokuapp.com/imagenes",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",
@@ -249,7 +249,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "http://localhost:8080/politicas",
+      url: "https://vast-tor-50736.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -266,7 +266,7 @@ function BodyAdmin() {
   };
 
   const getDescripciones = (productId) => {
-    axios.get("http://localhost:8080/descripciones").then((response) => {
+    axios.get("https://vast-tor-50736.herokuapp.com/descripciones").then((response) => {
       let descpRandom =
         response.data[Math.floor(Math.random() * response.data.length)]
           .descripcion;
@@ -291,7 +291,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "http://localhost:8080/descripciones",
+        url: "https://vast-tor-50736.herokuapp.com/descripciones",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",
@@ -318,7 +318,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "http://localhost:8080/politicas",
+      url: "https://vast-tor-50736.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -349,7 +349,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "http://localhost:8080/politicas",
+      url: "https://vast-tor-50736.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -381,7 +381,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "http://localhost:8080/caracteristicas",
+        url: "https://vast-tor-50736.herokuapp.com/caracteristicas",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",

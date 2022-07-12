@@ -29,7 +29,7 @@ function ProductDetail({ auth }) {
 
   const fetchProduct = async () => {
     setIsFetchingProducts(true);
-    const response = await fetch("http://localhost:8080/productos/" + id);
+    const response = await fetch("https://vast-tor-50736.herokuapp.com/productos/" + id);
     const data = await response.json();
     setProduct(data);
     getReservas(data.id);
@@ -39,7 +39,7 @@ function ProductDetail({ auth }) {
   const getReservas = (id) => {
     var config = {
       method: "get",
-      url: `http://localhost:8080/reservas/productos/${id}`,
+      url: `https://vast-tor-50736.herokuapp.com/reservas/productos/${id}`,
       // headers: {
       //   Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       // },
