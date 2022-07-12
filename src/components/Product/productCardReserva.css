@@ -1,0 +1,320 @@
+.section-products {
+    background-color: var(--fourth-color);
+  }
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 13px;
+    margin-left: 40px;
+    padding-top: 19px;
+   
+  }
+  .span-mostrar-mapa{
+  color: var(--main-color);
+    
+    font-weight: bold;
+    cursor:pointer;
+  
+  }
+  .product-list-title{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  
+  .h-title{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+  
+  .container-card {
+    background-color: white;
+    display: flex;
+    margin-right: 17px;
+    margin-bottom: 17px;
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%), 0 6px 20px 0 rgb(0 0 0 / 25%);
+  }
+  
+  
+  
+  .icon-detail {
+    filter: grayscale(100%) invert(21%) saturate(349%) hue-rotate(180deg) brightness(50%) contrast(100%); 
+   /* filter: invert(21%) sepia(%) saturate(349%) hue-rotate(180deg) brightness(89%) contrast(96%); */
+  
+  }
+  
+  .product-container {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+    flex-wrap: wrap;
+  }
+  
+  .detail-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .detail-card h4 {
+    color: #9b9dac;
+  }
+  
+  .product-card-img {
+    width: 100%;
+    position: relative;
+  }
+  .favorite-icon {
+    /* background-color: #383b58; */
+  
+    margin: 20px 14px 0px 0px;
+    position: absolute;
+    width: 6%;
+    top: 0;
+    right: 0;
+  }
+  .favorite-icon-img {
+  
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.4));
+  }
+  
+  .product-card-img-hotel {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    width: 95%;
+  }
+  .product-title-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 14px 15px 0px 0px;
+    justify-content: space-around;
+  
+  
+  }
+  
+  .rating-nro {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    /* width: 34px;
+    height: 37px; */
+    padding: 5px 13px 5px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating-nro p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #f3f1ed;
+  }
+  
+  .rating-description {
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .stars {
+    height: 70%;
+  }
+  
+  .categoria-stars {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 21px 0px 4px 0px;
+  }
+  
+  .product-localization-reserva {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    /* margin-top: 21px; */
+  }
+  
+  .icon-localization {
+    padding: 0px 5px 0px 0px;
+  }
+  .fa-location-dot{
+    color: var(--secondary-color);
+  }
+  .localization-detail {
+    display: flex;
+    font-size: 14px;
+  }
+  
+  .icons-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.688rem;
+    width: 43%;
+    padding-top: 0.5rem;
+  }
+  
+  
+  /* .icons-detail > img {
+    padding-right: 7px;
+  } */
+  
+  .description-vermas > p {
+    margin-top: 13px;
+  }
+  
+  .btn-vermas {
+    all: unset;
+    background-color: var(--main-color);
+    color: #ffffff;
+    width: 95%;
+    /* width: 206px;
+    height: 40px; */
+    border-radius: 5px;
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .btn-vermas:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: var(--main-color);
+  }
+  
+  /*media queries*/
+  
+  /*mobile*/
+  @media screen and (max-width: 541px) {
+    .product-card-right{
+      width: 100%;
+    }
+    .product-list {
+      background-color: var(--secondary-color);
+      margin-top: 13px;
+      margin-left: 0px;
+    }
+    .product-list-title{
+      color: #ffffff;
+    }
+    .container-card {
+      flex-wrap: wrap;
+      padding-top: 0px !important;
+    }
+  
+    .favorite-icon {
+      /* background-color: #383b58; */
+      margin: 15px 9px 0px 0px;
+      position: absolute;
+      width: 6% !important;
+      top: 0;
+      right: 0;
+      object-fit: cover;
+    }
+  
+    .favorite-icon{
+    border-top-left-radius: 0px !important;
+    }
+  
+  .product-card-img-hotel {
+  
+      border-top-left-radius: 8px !important ;
+      border-bottom-left-radius: 0px !important;
+      border-bottom-right-radius: 0px !important;
+  
+  }
+  .icons-detail{
+    display: none;
+    
+  }  
+
+  .reserva-card-checkin{
+    margin-top: 5px;
+  }
+  
+}
+  .fa-person-swimming{
+    color: var(--secondary-color);
+  }
+  
+  .fa-wifi{
+    color: var(--secondary-color);
+  }
+  
+  /* .fa-x{
+  
+    color: var(--main-color);
+    margin-left: 0.625rem;
+    cursor: pointer;
+  }  */
+  
+  
+  
+  /*tablet*/
+  @media screen and (max-width: 992px) {
+    .product-list-title{
+      margin-left: 22px;
+    }
+  .icons-detail{
+    margin-top: 0.688rem;
+  }
+    .favorite-icon {
+      /* background-color: #383b58; */
+      margin: 15px 9px 0px 0px;
+      position: absolute;
+      width: 6%;
+      top: 0;
+      right: 0;
+      object-fit: cover;
+      
+    }
+    
+    main {
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+  
+    .container-card {
+      width: 100%;
+      margin-right: 22px;
+      margin-left: 22px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  
+    .product-list{
+      margin-left: auto;
+    }
+  
+   
+    .product-card-img-hotel{
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+     
+    }
+  
+  
+  }
+  

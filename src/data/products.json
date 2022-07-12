@@ -1,0 +1,563 @@
+[
+  {
+    "id": 1,
+    "titulo": "Hotel Castelar",
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "puntaje": "6",
+    "descripciones": [
+        {
+            "id": 3,
+            "descripcion": "El Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.",
+            "producto_id": 1
+        },
+        {
+            "id": 1,
+            "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.",
+            "producto_id": 1
+        },
+        {
+            "id": 4,
+            "descripcion": "El establecimiento sirve un desayuno variado de 07:00 a 10:30.",
+            "producto_id": 1
+        },
+        {
+            "id": 2,
+            "descripcion": "Nuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.",
+            "producto_id": 1
+        }
+    ],
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "disponible": true,
+    "politica": [
+        {
+            "id": 2,
+            "tipo_politica": "seguridad",
+            "titulo": "Salud y seguridad",
+            "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+            "producto_id": 1
+        },
+        {
+            "id": 3,
+            "tipo_politica": "cancelacion",
+            "titulo": "Política de cancelación",
+            "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+            "producto_id": 1
+        },
+        {
+            "id": 1,
+            "tipo_politica": "casa",
+            "titulo": "Normas de la casa",
+            "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+            "producto_id": 1
+        }
+    ],
+    "categoria": {
+        "id": 1,
+        "titulo": "Hoteles",
+        "descripcion": "807.105 hoteles",
+        "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "ubicacion": {
+        "id": 1,
+        "descripcion": "En el centro de Santa Fe.",
+        "latitud": -31.648676449474305,
+        "longitud": -60.70635685611095,
+        "direccion": "25 de Mayo 2349"
+    },
+    "caracteristicas": [
+        {
+            "id": 2,
+            "nombre": "Estacionamiento gratuito",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/car.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 1,
+            "nombre": "Cocina",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/kitchen.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Pileta",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/nadador.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Aire acondicionado",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/air.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 7,
+            "nombre": "Apto mascotas",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/pet.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Televisor",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/tv.svg",
+            "producto_id": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Wifi",
+            "urlIcono": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/icons/wifi.svg",
+            "producto_id": 1
+        }
+    ],
+    "imagenesSecundarias": [
+        {
+            "id": 7,
+            "titulo": "salon",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/salon.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 5,
+            "titulo": "sunset",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/sunset.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 2,
+            "titulo": "breakfast",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/breakfast.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 9,
+            "titulo": "pileta",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/swimmingpool.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 1,
+            "titulo": "habitacion",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/room.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 3,
+            "titulo": "breakfast",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/viewhotel.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 4,
+            "titulo": "sauna",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/sauna.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 8,
+            "titulo": "hotel",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/hotel.jpg",
+            "producto_id": 1
+        },
+        {
+            "id": 6,
+            "titulo": "lobby",
+            "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imagenesHoteles/lobby.jpg",
+            "producto_id": 1
+        }
+    ],
+    "ciudad": {
+        "id": 1,
+        "nombre": "Santa Fe",
+        "pais": "Argentina",
+        "provincia": "Santa Fe"
+    }
+},
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "imagenPrincipalUrl": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgPrincipalHoteles/imgPrincipal-1.jpg",
+    "titulo": "Hotel Castelar",
+    "descripcion_card": "En el corazón de Santa Fe, disfruta de un albergue inspirado en las pasiones de su Capital",
+    "puntaje": 4,
+    "ubicacion": {
+      "id": 1,
+      "latitud": 19.4269,
+      "longitud": -99.1701,
+      "descripion": "En el centro de Santa Fe",
+      "direccion": "25 de Mayo 2349"
+    },
+    "ciudad": {
+      "id": 1,
+      "nombre": "Santa Fe",
+      "pais": "Argentina",
+      "provincia": "Santa Fe"
+    },
+    "politica": [
+      {
+        "id": 2,
+        "titulo": "Normas de la casa",
+        "descripcion": "Check-out: 10:00\nNo se permiten fiestas\nNo fumar",
+        "tipo_politica": "casa",
+        "producto_id": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Salud y seguridad",
+        "descripcion": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus",
+        "tipo_politica": "seguridad",
+        "producto_id": 2
+      },
+      {
+        "id": 1,
+        "titulo": "Política de cancelación",
+        "descripcion": "Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.",
+        "tipo_politica": "cancelacion",
+        "producto_id": 2
+      }
+    ],
+    "categoria": {
+      "id": 10,
+      "titulo": "Hoteles",
+      "descripcion": "807.105 hoteles",
+      "urlImagen": "https://bucket-imagenes-grupo2-0821-integrador.s3.amazonaws.com/imgCategorias/HotelCategory.jpg"
+    },
+    "descripciones": [
+      {
+        "id": 1,
+        "descripcion": "Está situado a solo unas calles de la avenida Alvear, de la avenida Quintana, del parque San Martín y del distrito de Recoleta. En las inmediaciones también hay varios lugares de interés, como la calle Florida, el centro comercial Galerías Pacífico, la zona de Puerto Madero, la plaza de Mayo y el palacio Municipal.\nNuestros clientes dicen que esta parte de Buenos Aires es su favorita, según los comentarios independientes.\nEl Hotel es un hotel sofisticado de 4 estrellas que goza de una ubicación tranquila, a poca distancia de prestigiosas galerías de arte, teatros, museos y zonas comerciales. Además, hay WiFi gratuita.\nEl establecimiento sirve un desayuno variado de 07:00 a 10:30."  
+      }
+    ]
+  }
+
+]

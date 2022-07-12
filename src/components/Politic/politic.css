@@ -1,0 +1,52 @@
+.politic-grid{
+   grid-template-columns: 20% 25% 20% auto;
+}
+
+
+/*mobile*/
+
+@media screen and (max-width: 468px) {
+
+  .politic-title{
+    margin-top: 2.063rem;
+    margin-left: 0.688rem;
+  }
+
+  .politic-grid{
+    margin-left: 0.688rem;
+    grid-template-columns: repeat(1, minmax(0, 0.95fr));
+    gap: 0px;
+  }
+
+  .politic-title--detail{
+    margin-top: 2.375rem;
+    margin-bottom: 2.125rem;
+  }
+}
+
+/* tablet  */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .politic-title {
+    margin-top: 3.027rem;
+    margin-left: 1.875rem;
+  }
+
+  .politic-grid {
+    flex: grid;
+    grid-template-columns: repeat(2, minmax(0, 0.5fr));
+    margin-left: 1.875rem;
+    gap: 0px;
+    grid-template-columns: 50% 50%;
+    margin-right: 2.5rem;
+  }
+
+  .politic-title--detail {
+    font-size: 20px;
+    margin-top: 2.685rem;
+  }
+
+  .politic-li {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

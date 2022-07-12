@@ -1,0 +1,107 @@
+.title-characteristicsForm{
+    margin-top: 2.313rem;
+}
+
+.name--characteristicsForm{
+    width: 65%;
+}
+.icon--characteristicsForm{
+    width: 45%;
+}
+
+.btn-add-characteristic{
+    padding-top: 26px;
+
+    cursor: pointer;
+}
+
+.input-form--characteristic{
+    height: 40px;
+background-color: white;
+padding: 0px 12px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+outline: none;
+margin-bottom: 0px;
+color: var(--secondary-color);
+width: 90%;
+
+}
+
+.input-form--characteristic-error{
+    height: 40px;
+    background-color: #ffe1e1;
+    padding: 0px 12px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    outline: none;
+    /* margin-bottom: 1rem; */
+    color: var(--secondary-color);
+    width: 90%;
+    border: 1px solid #ff0000;
+}
+
+.label-characteristic{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-form--characteristic:disabled{
+background-color: #F3FAF7
+
+}
+
+/*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .container-form-characteristic-mobile{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    } 
+
+
+.btn-add-characteristic{
+
+    padding-top: 26px;
+}
+
+.input-form--characteristic{
+    width: 100%;
+}
+
+.icon--characteristicsForm{
+    width:95%;
+    margin-top: 10px;
+
+}
+
+.name--characteristicsForm{
+       width: 90%;
+}
+
+
+
+
+
+}
+
+
+/*mobile*/
+
+@media screen and (max-width: 468px) {
+    .container-form-characteristic-mobile{
+        flex-direction: column;
+    }
+
+    .name--characteristicsForm{
+        width: 100%;
+    }
+    .icon--characteristicsForm{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn-add-characteristic{
+        margin-left: 0.625rem;
+    }
+}

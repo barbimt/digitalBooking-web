@@ -1,0 +1,133 @@
+input {
+    all: unset;
+}
+
+.label-form--user{
+font-size: 12px;
+font-weight: 500;
+}
+
+.input-form--user{
+    height: 40px;
+    background-color: transparent;
+    padding: 0px 12px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    width: 18.75rem;
+  }
+
+  .input-form--user-disabled{
+    background-color: var(--fourth-color);
+  }
+
+  .input-form--user-error{
+    height: 40px;
+    background-color: #ffe1e1;
+    padding: 0px 12px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    width: 18.75rem;
+    border: 1px solid #ff0000;
+  }
+
+  .inputRed-text-form {
+    text-align: end;
+    right: 0;
+    color: #ff0000;
+    font-weight: 500;
+  }
+
+
+  .title-form-user{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+    
+    margin-left: 2.688rem;
+  }
+  .container-form-div--user{
+    margin-left: 2.688rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.25);
+    padding: 30px 20px 30px 20px;
+    /* margin-right: 1.688rem; */
+    /* margin-bottom: 2.188rem; */
+  }
+
+  /*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .container-form-div--user{
+    margin-left:1.875rem;
+    margin-right:1.875rem ;
+
+    /* margin-right: 1.688rem; */
+    /* margin-bottom: 2.188rem; */
+  }
+  
+.input-form--user{
+  width: 85%;
+
+}
+
+.container--user-form-inputs{
+  width: 100%;
+}
+
+.input-lastName-city{
+  width: 100%;
+}
+
+.title-form-user{
+  margin-left: 1.875rem;
+}
+
+.input-form--user-error{
+  width: 85%;
+}
+}
+
+
+/*mobile*/
+
+@media screen and (max-width: 468px) {
+  .container-form-tablet{
+    padding-top: 1.875rem;
+    width: 100%;
+}
+
+.title-form-user-mobile{
+  margin-left:0.563rem;
+  margin-bottom: 0.938rem;
+  color: var(--secondary-color);
+}
+
+
+.container-form-div--user{
+  margin-left:0.563rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-right:  0.563rem;;
+  align-items: flex-start;
+}
+.user-container--form{
+  flex-direction: column;
+
+}
+
+.input-form--user{
+  width: 310px;
+}
+
+.input-form--user-error{
+  width: 310px;
+}
+}

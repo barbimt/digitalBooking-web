@@ -1,0 +1,90 @@
+.title-arrive{
+
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--secondary-color);
+        margin-left: 2.688rem;
+        margin-bottom: 12px;
+    
+}
+
+.container-arrive{
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 2.688rem;
+    padding-left: 1.5rem;
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.25);
+    
+}
+
+.p-arrive{
+    font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.p-hour-arrive{
+margin-top: 10px;
+    font-weight: 500;
+    line-height: 14.06px;
+  color: var(--secondary-color);
+  
+}
+
+.select-arrive{
+    margin-top: 10px;
+} 
+
+
+/*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .container-arrive{
+      margin: 0rem 1.875rem 0rem 1.875rem;
+
+    }
+
+    .title-arrive{
+        margin-left:1.875rem;
+    }
+    .container-arrive-tablet-div{
+      width: 100%;
+      padding-top:0.625rem;
+    }
+/* 
+    .container-arrive-tablet{
+      width: 100%;
+    } */
+}
+
+/*mobile*/
+@media screen and (max-width: 468px) {
+  .title-arrive-mobile{
+    margin-left:0.563rem;
+    margin-bottom: 0.938rem;
+    color: var(--secondary-color);
+  }
+  .container-arrive-tablet-div{
+    width: 100%;
+  }
+
+  .container-arrive{
+    margin-left:0.563rem;
+    margin-right: 0.563rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .p-arrive{
+    font-size: 14px;
+  }
+
+  .container-arrive-tablet{
+    align-items: flex-start;
+  }
+
+  .p-hour-arrive{
+    font-size: 14px;
+  }
+}

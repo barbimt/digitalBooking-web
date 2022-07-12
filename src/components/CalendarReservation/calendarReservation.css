@@ -1,0 +1,52 @@
+.CalendarDay__hovered_span.CalendarDay__hovered_span_5 {
+  opacity: 1;
+}
+
+.CalendarDay__hovered_span.CalendarDay__hovered_span_6 {
+  opacity: 1;
+}
+
+.title-calendar-RS {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-left: 2.688rem;
+  margin-bottom: 12px;
+}
+
+.calendar-RS {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .calendar-tablet-reservation {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .title-calendar-RS {
+    margin-left: auto;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 468px) {
+  .title-calendar-RS-mobile {
+    margin-left: 0.563rem;
+    margin-bottom: 0.938rem;
+    color: var(--secondary-color);
+  }
+
+  .calendar-mobile-reservation {
+    margin-left: 0.563rem;
+  }
+  .container-calendar-r {
+    width: 100%;
+  }
+}

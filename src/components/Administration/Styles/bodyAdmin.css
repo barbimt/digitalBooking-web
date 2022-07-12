@@ -1,0 +1,106 @@
+.title-createProduct {
+  font-weight: 700;
+  margin-bottom: 1.438rem;
+}
+
+.container-createProduct {
+  background-color: white;
+  padding-left: 1.563rem;
+  padding-top: 2.125rem;
+  padding-right: 1.75rem;
+
+  border-radius: 8px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 2.313rem;
+}
+.title-characteristicsForm {
+  margin-top: 2.313rem;
+  color: var(--secondary-color);
+}
+.title-PoliticsForm {
+  margin-top: 2.313rem;
+  color: var(--secondary-color);
+}
+.container-characteristicsForm {
+  margin-top: 0.813rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--fourth-color);
+  border-radius: 5px;
+  padding: 1.25rem 1.75rem 2.375rem 1.75rem;
+}
+.container-ImageForm {
+  margin-top: 0.813rem;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--fourth-color);
+  border-radius: 5px;
+  padding: 1.25rem 1.75rem 2.375rem 1.75rem;
+}
+
+.container-btn-createProduct{
+  display: flex;
+  justify-content: center;
+  margin-top: 3.063rem;
+
+}
+.btn-createProduct{
+  text-align: center;
+  all: unset;
+  background-color: var(--main-color);
+  color: #ffffff;
+  width: 25%;
+  /* width: 206px;
+  height: 40px; */
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  text-decoration: none;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+.btn-createProduct:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+
+/*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .btn-createProduct{
+    width: 40%;
+  }
+  .container-characteristicsForm {
+  
+    padding-right: 18px;
+  }
+}
+
+
+/*mobile*/
+
+@media screen and (max-width: 468px) {
+  .container-characteristicsForm{
+    padding: 1rem;
+  }
+  .title-createProduct {
+   
+    margin-left: 0.563rem;
+  }
+
+  .container-ImageForm{
+    padding: 1rem;
+  }
+.container-btn-createProduct{
+  margin-top: 2rem;
+}
+
+ .btn-createProduct{
+width: 100%;
+ }
+}

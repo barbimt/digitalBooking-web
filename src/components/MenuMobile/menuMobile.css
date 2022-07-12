@@ -1,0 +1,158 @@
+.container-mobile{
+    height: 100%;
+    width: 75%;
+    right:0;
+    background-color: white;
+   position: fixed;
+   z-index: 3;
+   animation-duration: 0.5s;
+   animation-name: slidein;
+  /* position: fixed; */
+}
+
+@keyframes slidein {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 75%;
+    }
+  }
+.container-mobile-title, .container-mobile-profile{
+  position: relative;
+  color: white;
+  height: 175px;
+  background-color: var(--main-color);
+
+  
+}
+.container-mobile-profile{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+   padding-bottom: 10px; 
+}
+.mobile-user-avatar{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+ color: var(--secondary-color);
+  background-color: #ffffff;
+}
+
+.mobile-user-info{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start;
+    margin-left: auto;
+    color: black; */
+  margin: 6px;
+  align-items: flex-end;
+}
+.mobile-saludo{
+  font-size: 16px;
+  font-weight: bold;
+  color:white
+}
+
+.mobile-username{
+  color:  var(--secondary-color);
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.mobile-closeApp{
+  font-size: 24px;
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 14px;
+  margin-top: 12px;
+}
+.mobile-title{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom:10px;
+padding-right: 10px;
+
+}
+
+.crearCuenta{
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
+color: var(--secondary-color);
+margin-bottom: 20px;
+
+}
+
+.login{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 16px;
+font-weight: 700;
+
+}
+
+.container-mobile-redireccion{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ margin-top: 23px;
+  margin-right: 10px;
+}
+.mobile-cerrar-sesion{
+
+ display: flex; 
+ height: 50%;
+ position: absolute;
+ align-items: flex-end;
+ 
+}
+.link-mobile-cerrarSesion {
+  text-decoration: none;
+  color: var(--main-color);
+
+}
+.mobile-cerrarSesion-span{
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+.icons-footer-mobile{
+  right: 0;
+  position: absolute;
+bottom: 0;
+
+  height:  58px;;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.icon-footer-mobile{
+ 
+  width: 50%;
+}
+.icon-footer-mobile-instagram{
+  color: var(--secondary-color);
+  width: 10%;
+}
+
+
+
+
+
+
+
