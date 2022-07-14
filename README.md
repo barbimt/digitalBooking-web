@@ -6,7 +6,9 @@
 El proyecto consiste en una aplicación web que ofrece la posibilidad al usuario de buscar alojamientos en diferentes ciudades, con diversas comodidades a disposición de los huéspedes. El usuario, autenticado o no, puede realizar búsquedas por fecha, ciudad, y por ciudad y fecha en conjunto. Además, al autenticarse, el usuario puede realizar reservas en los lugares deseados y luego consultar todas las reservas hechas. En caso de ser administrador, puede crear nuevos productos para que estén disponibles en la página web.
 
 #### Tecnologías utilizadas
-En el área del Frontend la tecnología utilizada fue React con Hooks, CSS, Tailwind y librerías en algunos componentes.
+En el área del Frontend la tecnología utilizada fue ReactJS con Hooks, CSS, Tailwind y librerías en algunos componentes.
+También utilizamos LocalStorage para almacenar los datos del usuario.
+
 A continuación daremos un detalle de las librerías utilizadas y su funcionamiento:
 
 - React-Dates para el calendario del producto
