@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Digital Booking
+[Live Demo](https://barbimt.github.io/digitalBooking-web/ "Demo") 
+*Frontend en GitHub Pages y Backend en Heroku*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Resumen general 
+El proyecto consiste en una aplicación web que ofrece la posibilidad al usuario de buscar alojamientos en diferentes ciudades, con diversas comodidades a disposición de los huéspedes. El usuario, autenticado o no, puede realizar búsquedas por fecha, ciudad, y por ciudad y fecha en conjunto. Además, al autenticarse, el usuario puede realizar reservas en los lugares deseados y luego consultar todas las reservas hechas. En caso de ser administrador, puede crear nuevos productos para que estén disponibles en la página web.
 
-## Available Scripts
+#### Tecnologías utilizadas
+En el área del Frontend la tecnología utilizada fue React con Hooks, CSS, Tailwind y librerías en algunos componentes.
+A continuación daremos un detalle de las librerías utilizadas y su funcionamiento:
 
-In the project directory, you can run:
+- React-Dates para el calendario del producto
+- React-Select para elegir entre diferentes opciones, en este caso lo utilizamos para las ciudades en el buscador del Home, en la página para reservar el producto con opciones de horarios para el Check-In y en la Administración dónde al crear el producto podemos elegir diferentes opciones de Categoría y Ciudad.
+- Swiper para el Carousel de imágenes en el que tuvimos que adaptarlo según el figma, en el caso de tablet y mobile la librería nos permitió poder pasar las imágenes cada 3 segundos.
+- React-Share para compartir en redes sociales la URL del producto.
+- Leaflet para el mapa del producto, dónde pudimos refactorizarlo según el diseño que nos dieron.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para el backend se usó SpringBoot para la creación del proyecto y la configuración de las dependencias a utilizar
+- Se usaron las siguientes dependencias:
+	- Spring Web
+	- Spring Boot DevTools
+	- Lombok
+	- Spring Data JPA
+	- MySQL Driver
+	- Spring Security
+	- Log4j
+	- Junit
+	- JJWT
+	- Spring Doc
+- Sprint Security JWT: usamos este marco para incorporar seguridad en la autenticación de nuestros usuarios y el control de acceso a los diferentes endpoints de nuestra aplicación.
+- Sprint MVC: usamos el patrón modelo vista controlador (MVC) para separar la lógica de la aplicación y la representación de los datos (Modelos) de la interfaz del usuario (Vistas), para la interacción entre ambas usamos el controlador que se encarga de gestionar el flujo de información.
+- Para la implementación y diseño de la base de datos se utilizó MySQL
