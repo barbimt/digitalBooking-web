@@ -70,7 +70,7 @@ function Registro() {
       console.log("datastringify",JSON.stringify(registerValues))
       var config = {
         method: "post",
-        url: "https://vast-tor-50736.herokuapp.com/usuarios",
+        url: "https://d-booking-api.herokuapp.com/usuarios",
         headers: {
           "Content-Type": "application/json",
         },

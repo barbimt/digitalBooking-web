@@ -34,8 +34,8 @@ function ReservaUser() {
     var config = {
       method: "get",
       url: 
-      "https://vast-tor-50736.herokuapp.com/reservas/usuarios/" + idUser.id,
-      // `https://vast-tor-50736.herokuapp.com/reservas/usuarios/${idUser.id}`,
+      "https://d-booking-api.herokuapp.com/reservas/usuarios/" + idUser.id,
+      // `https://d-booking-api.herokuapp.com/reservas/usuarios/${idUser.id}`,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",

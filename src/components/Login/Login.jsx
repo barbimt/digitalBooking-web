@@ -29,7 +29,7 @@ const Login = ({ login }) => {
     const userEmail = JSON.parse(localStorage.getItem("userEmail"));
     var config = {
       method: "get",
-      url: "https://vast-tor-50736.herokuapp.com/usuarios/user/" + userEmail,
+      url: "https://d-booking-api.herokuapp.com/usuarios/user/" + userEmail,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       },
@@ -62,7 +62,7 @@ const Login = ({ login }) => {
     // );
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/authenticate",
+      url: "https://d-booking-api.herokuapp.com/authenticate",
       headers: {
         "Content-Type": "application/json",
       },

@@ -31,7 +31,7 @@ function Body() {
   }, []);
 
   const fetchProducts = async () => {
-    const response = await fetch("https://vast-tor-50736.herokuapp.com/productos");
+    const response = await fetch("https://d-booking-api.herokuapp.com/productos");
     const data = await response.json();
     setProducts(data);
     setIsFetchingProducts(false);
@@ -42,7 +42,7 @@ function Body() {
     setIdCategorySelected(id);
     setIsFetchingProducts(true);
     const response = await fetch(
-      "https://vast-tor-50736.herokuapp.com/productos/categoria/" + id
+      "https://d-booking-api.herokuapp.com/productos/categoria/" + id
     );
     const data = await response.json();
     setFilteredProducts(data);
@@ -50,7 +50,7 @@ function Body() {
   };
 
   const fetchCategories = async () => {
-    const response = await fetch("https://vast-tor-50736.herokuapp.com/categorias");
+    const response = await fetch("https://d-booking-api.herokuapp.com/categorias");
     const data = await response.json();
     setCategories(data);
     setIsSkeleton(false);
@@ -90,7 +90,7 @@ function Body() {
 
   const filterProductsByDates = async (startDate, endDate) => {
     const response = await fetch(
-      "https://vast-tor-50736.herokuapp.com/productos/" + startDate + "/" + endDate
+      "https://d-booking-api.herokuapp.com/productos/" + startDate + "/" + endDate
   
     );
     const data = await response.json();
@@ -116,8 +116,8 @@ function Body() {
  
     setCitySelected(city.id);
     const response = await fetch(
-      "https://vast-tor-50736.herokuapp.com/productos/ciudad/" + city.id + "/" + reservationDates.startDate + "/" + reservationDates.endDate
-      // `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}/${reservationDates.startDate}/${reservationDates.endDate}`
+      "https://d-booking-api.herokuapp.com/productos/ciudad/" + city.id + "/" + reservationDates.startDate + "/" + reservationDates.endDate
+      // `https://d-booking-api.herokuapp.com/productos/ciudad/${city.id}/${reservationDates.startDate}/${reservationDates.endDate}`
     );
     const data = await response.json();
     if (data.length == 0) {
@@ -142,8 +142,8 @@ function Body() {
   const filterProductsByCity = async (city) => {
     setCitySelected(city.id);
     const response = await fetch(
-      "https://vast-tor-50736.herokuapp.com/productos/ciudad/" + city.id
-      // `https://vast-tor-50736.herokuapp.com/productos/ciudad/${city.id}`
+      "https://d-booking-api.herokuapp.com/productos/ciudad/" + city.id
+      // `https://d-booking-api.herokuapp.com/productos/ciudad/${city.id}`
     );
     const data = await response.json();
     if (data.length == 0) {

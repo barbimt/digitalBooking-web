@@ -45,8 +45,8 @@ function Reserva() {
     var config = {
       method: "get",
       url: 
-      "https://vast-tor-50736.herokuapp.com/reservas/productos/" + id,
-      // `https://vast-tor-50736.herokuapp.com/reservas/productos/${id}`,
+      "https://d-booking-api.herokuapp.com/reservas/productos/" + id,
+      // `https://d-booking-api.herokuapp.com/reservas/productos/${id}`,
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
       },
@@ -57,7 +57,7 @@ function Reserva() {
   };
 
   useEffect(() => {
-    axios.get("https://vast-tor-50736.herokuapp.com/productos/" + id).then((response) => {
+    axios.get("https://d-booking-api.herokuapp.com/productos/" + id).then((response) => {
       setProduct(response.data);
       getReservas(response.data.id);
     });
@@ -80,7 +80,7 @@ function Reserva() {
     });
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/reservas",
+      url: "https://d-booking-api.herokuapp.com/reservas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -103,7 +103,7 @@ function Reserva() {
     data.ciudad = formValues.city
     var config = {
       method: "put",
-      url: "https://vast-tor-50736.herokuapp.com/usuarios",
+      url: "https://d-booking-api.herokuapp.com/usuarios",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",

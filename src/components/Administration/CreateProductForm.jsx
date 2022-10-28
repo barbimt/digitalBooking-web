@@ -38,7 +38,7 @@ function CreateProductForm({onFormValuesChange}) {
   const fetchCategories = () => {
     var config = {
       method: "get",
-      url: "https://vast-tor-50736.herokuapp.com/categorias",
+      url: "https://d-booking-api.herokuapp.com/categorias",
     };
     axios(config).then((response) => {
       const arrayCategories = response.data.map((item) => {
@@ -57,7 +57,7 @@ function CreateProductForm({onFormValuesChange}) {
   const fetchCities = () => {
     var config = {
       method: "get",
-      url: "https://vast-tor-50736.herokuapp.com/ciudades",
+      url: "https://d-booking-api.herokuapp.com/ciudades",
     };
     axios(config).then((response) => {
       const arrayCities = response.data.map((item) => {

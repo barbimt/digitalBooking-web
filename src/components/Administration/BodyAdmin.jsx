@@ -137,7 +137,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/ubicaciones",
+      url: "https://d-booking-api.herokuapp.com/ubicaciones",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -190,7 +190,7 @@ function BodyAdmin() {
     console.log("product para post", data);
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/productos",
+      url: "https://d-booking-api.herokuapp.com/productos",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -223,7 +223,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "https://vast-tor-50736.herokuapp.com/imagenes",
+        url: "https://d-booking-api.herokuapp.com/imagenes",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",
@@ -249,7 +249,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/politicas",
+      url: "https://d-booking-api.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -266,7 +266,7 @@ function BodyAdmin() {
   };
 
   const getDescripciones = (productId) => {
-    axios.get("https://vast-tor-50736.herokuapp.com/descripciones").then((response) => {
+    axios.get("https://d-booking-api.herokuapp.com/descripciones").then((response) => {
       let descpRandom =
         response.data[Math.floor(Math.random() * response.data.length)]
           .descripcion;
@@ -291,7 +291,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "https://vast-tor-50736.herokuapp.com/descripciones",
+        url: "https://d-booking-api.herokuapp.com/descripciones",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",
@@ -318,7 +318,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/politicas",
+      url: "https://d-booking-api.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -349,7 +349,7 @@ function BodyAdmin() {
     });
     var config = {
       method: "post",
-      url: "https://vast-tor-50736.herokuapp.com/politicas",
+      url: "https://d-booking-api.herokuapp.com/politicas",
       headers: {
         Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
         "Content-Type": "application/json",
@@ -381,7 +381,7 @@ function BodyAdmin() {
       });
       var config = {
         method: "post",
-        url: "https://vast-tor-50736.herokuapp.com/caracteristicas",
+        url: "https://d-booking-api.herokuapp.com/caracteristicas",
         headers: {
           Authorization: "Bearer " + JSON.parse(localStorage.getItem("user")),
           "Content-Type": "application/json",
