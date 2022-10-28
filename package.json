@@ -1,7 +1,7 @@
 {
   "homepage": "https://barbimt.github.io/digitalBooking-web",
   "name": "dbooking",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
